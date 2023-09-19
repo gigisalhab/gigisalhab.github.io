@@ -17,7 +17,24 @@
   </header>
 
   <body>
-    <img src="images/222.jpeg" style="width: 100%; display: block;" alt="banner">
+    <div class="image-container">
+    <img src="images/222.jpeg" class="banner-image" alt="banner">
+    </div>
+
+    <style>
+        .image-container {
+            width: 100%;
+            height: 200px; /* or whatever height you desire */
+            overflow: hidden;
+        }
+    
+        .banner-image {
+            width: 100%;
+            display: block;
+        }
+    </style>
+
+
     <h1>Jenna Salhab's Portfolio</h1>
     <h2>About Me</h2>
     <p>Highly motivated and ambitious third-year student at Michigan State University </p>
